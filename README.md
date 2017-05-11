@@ -9,8 +9,7 @@
 - Pip → bundled with Python 2.7+
 - Virtualenv → https://virtualenv.pypa.io
 
-# Run Locust.io Load Testing Tool
-
+# Run
 Must Have Python installed (version 2.7+)
 
 1.  `$ pip install virtualenv`  (this installs virtualenv globally)
