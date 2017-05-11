@@ -1,5 +1,5 @@
 # Locust.io & Spring OAuth2
-- This is an example Locust.io load testing application demonstrating how to interact with a REST API using Spring OAuth2.
+- This is an example Locust.io load testing application demonstrating how to interact with a Spring OAuth2 REST API.
 - This is only a reference implementation and will need to be modified to work with your web application.
 
 # Tech
@@ -20,6 +20,6 @@ Must Have Python installed (version 2.7+)
 6.  `$ locust -f locust-test.py` (start locust w/ python test file)
 7.  open a browser and goto `http://localhost:8089`
 
-To close locust:  `Ctrl+c` via command line
+To close locust: `Ctrl+c` via command line
 
-To escape from the virtual environment:  `$ deactivate`
+To escape from the virtual environment: `$ deactivate`
