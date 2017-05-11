@@ -27,8 +27,8 @@ def callback():
     options = {'code' : code, 'redirect_uri' : redirect_uri, 'grant_type' : 'authorization_code'}
 
     # 'locust-loadtesting:secret' base64 encoded -> bG9jdXN0LWxvYWR0ZXN0aW5nOnNlY3JldA==
-    # 'locust-loadtesting' needs to match the OAuth Client's Client ID stored in the host applications datastore 
-    # 'secret' needs to match the Oauth Client's Client Secret hash value in the datastore (BCrypt Hash)
+    # 'locust-loadtesting' needs to match the OAuth Client's Client ID stored in the host application's datastore 
+    # 'secret' needs to match the OAuth Client's Client Secret hash value stored in the host application's datastore (BCrypt Hash)
     response = yourservice.get_raw_access_token(data=options, headers={'Authorization' : 'Basic bG9jdXN0LWxvYWR0ZXN0aW5nOnNlY3JldA=='})
     
     # Since the user is logged in at this point, the access token is not needed.  Grab and print anyway.
